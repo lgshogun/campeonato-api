@@ -9,6 +9,7 @@ import java.util.UUID;
 @Entity
 @Table(name = "TB_JOGOS")
 public class JogoModel implements Serializable {
+    public static final long serialVersionID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "jogo_id")
